@@ -40,7 +40,7 @@ const Footer = () => {
                     <li><a><DiChrome size={15} style={{marginLeft:"5px"}}/>وب سایت : </a></li>
                 </ul>
             </div>
-            <div className="logo">
+            <div className="logo logofooter">
                 <p>M</p>
                 <AiFillFire style={{"color":"red" , "fontSize":"40px","marginBottom":"9px"}}/>
                 <BsFillEmojiSunglassesFill style={{"marginLeft":"6px","color":"yellow" , "fontSize":"40px","marginBottom":"10px"}}/>
