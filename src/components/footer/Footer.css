@@ -1,0 +1,118 @@
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-box{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.usefull-link{
+    color: #fff;
+}
+.usefull-link h2{
+    margin-bottom: 10px;
+}
+.usefull-link ul{
+    padding-right: 20px;
+}
+.usefull-link ul li{
+    margin-bottom: 10px;
+    list-style-type: disc;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.usefull-link ul li:hover{
+    color: orangered;
+}
+.contact-us ul li{
+    list-style-type: none;
+}
+.contact-us ul{
+    list-style-type: none;
+    padding-right: 5px;
+}
+.contact-us ul li a{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1500px) {
+    .footer-box{
+        width: 65%;
+    }
+}
+@media screen and (max-width:1050px) {
+    .footer-box{
+        width: 75%;
+    }
+}
+@media screen and (max-width:800px) {
+    .footer-box{
+        width:100%;
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:700px) {
+    .footer-box{
+       flex-wrap: wrap;
+    }
+    .logo{
+        margin-bottom: 70px;
+        width: 100%;
+        order: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .usefull-link{
+        width: 33%;
+        order: 1;
+    }
+    
+}
+@media screen and (max-width:540px) {
+    .usefull-link{
+        width: 50%;
+        padding-right: 70px;
+    } 
+    .contact-us{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding-right: 0;
+    }
+    .contact-us ul{
+        margin-right: 50px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .usefull-link{
+        width: 50%;
+        padding-right: 30px;
+    } 
+    .contact-us{
+        margin-right:60px;
+    }
+    
+    
+}
+@media screen and (max-width:350px) {
+    .usefull-link{
+        width: 50%;
+        padding-right: 30px;
+    } 
+    .contact-us{
+        margin-right:40px;
+    }
+    
+    
+}
