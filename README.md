@@ -1,3 +1,3 @@
 REACT JS project => Landing page
 
-Visit the site => https://landingpage.iran.liara.run/
+Visit the site => https://landingpage-woad-alpha.vercel.app/
